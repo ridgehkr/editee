@@ -55,6 +55,7 @@ class EditEE {
 		ob_start();
 ?>
 {exp:edit-ee:url}
+Returns the URL to that entry's edit page.
 <?php
 		$buffer = ob_get_contents();
 		ob_end_clean();
